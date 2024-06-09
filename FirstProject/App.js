@@ -1,14 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, } from 'react-native';
+import { StyleSheet,SafeAreaView ,Text, View, } from 'react-native';
 import { MyButton } from './Components/Button';
+import Cat from './Components/Cat';
 
 export default function App() {
   return (
+
     <View style={styles.container}>
       <Text style={styles.heading}>Hello World</Text>
       <Text style={styles.heading}>Hello World</Text>
       <Text style={styles.heading}>Hello World</Text>
       <MyButton></MyButton>
+      <Cat></Cat>
       <StatusBar style="auto" />
     </View>
   );
